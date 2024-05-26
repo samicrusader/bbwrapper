@@ -1,0 +1,123 @@
+! Title:        obsolit_blackbox
+! By:           erik s fredricks <erik@lonelymachines.org>
+! Comment:      Colors taken from the obsolit_wm theme for WindowMaker, which
+!		was inspired by the absolute_blue theme for Enlightenment.
+
+
+       toolbar:                        Raised Gradient Crossdiagonal
+       toolbar.color:                  #484848
+       toolbar.colorTo:                #353544
+
+       toolbar.*.textColor:            #e0e0e0
+       toolbar.*.color:                #4c4c4c
+       toolbar.*.colorTo:              #353535
+
+       toolbar.button:                 Raised Gradient Pyramid
+	toolbar.button.Color:		#595959
+	toolbar.button.ColorTo:		#484848
+
+        toolbar.button.picColor:        #e2d8cb
+
+       toolbar.button.pressed:         Sunken Gradient Pyramid
+
+       toolbar.button.pressed.picColor:gray90
+
+       toolbar.label:                  Sunken Gradient Vertical
+	toolbar.label.Color:		#394076
+	toolbar.label.ColorTo:		#253762
+
+       toolbar.windowLabel:            Sunken Gradient crossdiagonal
+       toolbar.windowLabel.color:      #394076
+       toolbar.windowLabel.colorTo:    #253762
+
+       toolbar.clock:                  Sunken Gradient Vertical
+	toolbar.clock.color:		#394076
+	toolbar.clock.colorTo:		#253762
+
+       toolbar.justify:                Right
+
+       toolbar.font:              -b&h-lucidux sans-medium-r-normal-*-12-*-*-*-p-*-iso8859-2
+
+       menu.title:                     Raised Gradient Vertical
+       menu.title.color:               #434446
+       menu.title.colorTo:             #3b3c3e
+       menu.title.textColor:           #e0e0e0
+       menu.title.font:           -b&h-lucidux sans-medium-r-normal-*-12-*-*-*-p-*-iso8859-2
+       menu.title.justify:             Center
+
+       menu.frame:                     Raised Gradient Horizontal
+       menu.frame.color:               #343970
+       menu.frame.colorTo:             #133259
+       menu.frame.textColor:           #d0d0d0
+       menu.frame.disableColor:        #686868
+       menu.frame.font:           -b&h-lucidux sans-medium-r-normal-*-12-*-*-*-p-*-iso8859-2
+       menu.frame.justify:             Left
+
+       menu.bullet:                    Empty
+       menu.bullet.position:           Right
+
+       menu.hilite:                    Raised Solid
+       menu.hilite.color:              #484848
+       menu.hilite.textColor:          #d7d7d0
+
+       window.title.*.color:           #434446
+       window.title.*.colorTo:         #3b3c3e
+
+       window.title.focus:             Raised Gradient Crossdiagonal
+
+       window.title.unfocus:           Bevel1 Gradient Vertical
+
+       window.label.focus:             Raised Gradient Vertical
+       window.label.focus.color:       #353638
+       window.label.focus.colorTo:     #3a3b3d
+       window.label.focus.textColor:   #e0e0e0
+
+       window.label.unfocus:           Sunken Gradient Vertical
+       window.label.unfocus.color:     #293076
+       window.label.unfocus.colorTo:   #153762
+       window.label.unfocus.textColor: #898989
+
+       window.handle.*.color:          #4c4c4c
+       window.handle.*.colorTo:        #353535
+
+       window.handle.focus:            Raised Gradient Rectangle
+
+       window.handle.unfocus:          Raised Gradient Rectangle
+
+       window.grip.*.color:            #484848
+
+       window.grip.focus:              Raised Solid
+
+       window.grip.unfocus:            Raised Solid
+
+       window.button.focus:            Raised Gradient Pyramid
+       window.button.focus.color:      #434446
+       window.button.focus.colorTo:    #3b3c3e
+       window.button.focus.picColor:   #d6d6d6
+
+       window.button.unfocus:          Raised Gradient Pyramid
+       window.button.unfocus.color:    #293076
+       window.button.unfocus.colorTo:  #153762
+       window.button.unfocus.picColor: #898989
+
+       window.button.pressed:          Sunken Gradient Pyramid
+       window.button.pressed.color:    #4c4c4c
+       window.button.pressed.colorTo:  #353535
+
+       window.frame.focusColor:        #353535
+       window.frame.unfocusColor:      #263873
+
+       window.font:               -b&h-lucidux sans-medium-r-normal-*-12-*-*-*-p-*-iso8859-2
+       window.justify:                 Right
+
+       borderWidth:                    1
+       borderColor:                    #000000
+
+       bevelWidth:                     2
+       handleWidth:                    4
+
+       frameWidth:                     1
+
+       rootCommand:      ./launchme.sh
+
+! http://lonelymachines.org
